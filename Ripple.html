@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripple Fragrances</title>
+</head>
+<style>
+.Header{
+    display:flex;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.headerleft{
+    padding-top: 0;
+    position: 0;
+}
+.headerleft img{
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: cover; 
+}
+
+.headermiddle {
+    display: flex;
+    position: fixed;
+    margin-left: 45%;
+    padding: 20px;
+    padding-top: 0px;
+    max-width: 600px;
+    height: 150px;
+}
+.headermiddle button{
+    color: black;
+    font-family: 'Calibri';
+    font-size: 25px;
+    background-color: #a5dde700;
+    opacity: 80%;
+    padding:30px;
+    margin-right: 55px;
+    border-radius: 0px;
+    border-width: 0;
+    height: 150px;
+    
+}
+.headermiddle :hover{
+    padding:35px;
+    transition: 1s cubic-bezier(0.075, 0.82, 1, 1.5);
+    background-color: #a5dde746;
+}
+.headerright{
+    margin-top: 50px;
+    display: flex;
+    position:fixed;
+    margin-left: 90%;
+    max-height: 150px;
+}
+
+.headerright profile  img{
+    border-width: 0px;
+    border: white;
+    max-width: 80px;
+    object-fit: cover;
+}
+.headerright profile img:hover{
+    opacity: 70%;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.headerright settings  img{
+    border-width: 0px;
+    border: white;
+    max-width: 60px;
+    object-fit: cover;
+}
+.headerright settings img:hover{
+    opacity: 70%;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.headerright cart  img{
+    border-width: 0px;
+    border: white;
+    max-width: 60px;
+    object-fit: cover;
+}
+.headerright cart img:hover{
+    opacity: 70%;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.bodypart1{
+    position: static;
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+    margin-top:150px;
+    height: 1200px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.11);
+    background-image: url('https://drive.google.com/uc?export=view&id=1mh6WzhuUqoxGIVoi8eyRncsBFWJShjxz');
+    background-position-y:70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bodypart1 .bpforeground{
+    display: flexbox;
+    position:static;
+    color: black;
+    margin-top:0;
+    width: 100%;
+    height:1200px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+.fgtxt{
+    display: grid;
+    justify-content:start;
+    
+    position:static;
+    color: black;
+    margin-top:0;
+    max-width: 50%;
+    height:1200px;
+}
+.bpforeground button{
+    border-width: 0px; 
+    border-radius: 40px; 
+    display: block ; 
+    margin-left: 65%;
+    margin-top: -15%; 
+    height:80px; 
+    width:400px; 
+    font-size: 30px;
+    transition: 1s;
+    background-color: #f7f7f72f;
+}
+.bpforeground button:hover{
+    
+    opacity: 80%;
+    
+}
+
+</style>
+<!-- the object fit will help it maintain aspect ratio
+block: Displays an element as a block-level element. This means that the element starts on a new line and takes up the full width of the container. 
+Block-level elements include headings, paragraphs, and divs.
+
+inline: Displays an element as an inline element. This means that the element does not start on a new line and only takes up as much width as necessary. I
+nline elements include links, images, and spans.
+
+inline-block: Displays an element as an inline-level block container. This means that the element is formatted as an inline element, but you can apply height and width values. Inline-level block containers include buttons and inputs.
+
+none: Hides an element. This means that the element is not displayed on the page and does not take up any space.
+
+flex: Displays an element as a block-level flex container. This means that the element is a flexible container that can be used to create responsive layouts.
+
+grid: Displays an element as a block-level grid container. This means that the element is a grid container that can be used to create complex layouts.
+
+table: Displays an element as a table. This means that the element is formatted as a table, with rows and columns.
+
+table-cell: Displays an element as a table cell. This means that the element is formatted as a cell within a table.
+
+table-row: Displays an element as a table row. This means that the element is formatted as a row within a table.
+-->
+
+
+<body style= background-color:#e6e6e6;>
+    <div class="Header">
+        <div class="headerleft">
+            <img onclick="window.location.href='https://www.facebook.com/ripple.perfumery/'" src="https://scontent.fcgp28-1.fna.fbcdn.net/v/t39.30808-6/378314311_122116396208025772_1530065928660785682_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=bbk_xFCYxqkAX9KUKj9&_nc_ht=scontent.fcgp28-1.fna&oh=00_AfBYVGLYTayKOuWTpEBXfY_lOG_i37cd9FL2XgRgTxIpcA&oe=658C1BD1">
+        </div>
+        <div class="headermiddle">
+            <button>Home</button>
+            <button>About us</button>
+            <button>Store</button>
+        </div>
+        <div class="headerright">
+            
+            <profile>
+                <img onclick="window.location.href='https://www.facebook.com/ripple.perfumery/'" src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small_2x/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg">
+            </profile>
+            
+            <settings>
+                <img onclick="window.location.href='https://www.facebook.com/ripple.perfumery/'" src="https://static.vecteezy.com/system/resources/thumbnails/007/635/835/small_2x/gear-logo-icon-design-template-free-vector.jpg">
+            </settings>
+
+            <cart>
+                <img onclick="window.location.href='https://www.facebook.com/ripple.perfumery/'" src="https://static.vecteezy.com/system/resources/previews/007/635/122/original/shopping-cart-icon-design-template-free-vector.jpg">
+            </cart>
+        </div>
+    </div>
+    <div class="bodypart1">
+        
+        <div class="bpforeground">
+            <div class="fgtxt">
+                <fgtext1 style= "margin-top: 300px; color: white; font-size:500% ; font-family: Calibri; margin-left: 30px; max-width: 100%; height: fit-content;">
+                    Ripple Fragrances
+                </fgtext1>
+                <fgtext2 style="max-block-size: 20%; margin-top: -300px; color: white; font-size:300% ; font-family: Calibri; margin-left: 30px; max-width: 100%; height: fit-content;">
+                    Stand out of the ordinary with our exquisite unique blends of perfumes. 
+                </fgtext2>
+            </div>
+            <button>Get Started</button>
+        </div>
+        
+        
+
+    </div>
+</body>
+</html>
